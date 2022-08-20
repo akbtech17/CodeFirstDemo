@@ -9,7 +9,7 @@ namespace CodeFirstDemo.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "City",
                 table: "Employees",
-                type: "nvarchar(max)",
+                type: "nvarchar(25)",
                 nullable: true);
 
             migrationBuilder.AddColumn<int>(
