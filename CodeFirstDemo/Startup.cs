@@ -49,3 +49,5 @@ namespace CodeFirstDemo
         }
     }
 }
+
+// update-database initmigrate
