@@ -9,9 +9,9 @@ namespace CodeFirstDemo.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
-        public virtual ICollection<Orders> Orders { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
-    public class Orders {
+    public class Order {
         [Key]
         public int OrderId { get; set; }
         public DateTime OrderDate { get; set; }
